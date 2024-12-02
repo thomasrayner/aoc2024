@@ -1,4 +1,4 @@
-package day00
+package main
 
 import (
     "bufio"
@@ -19,7 +19,7 @@ func main() {
 
     }
     if err := scanner.Err(); err != nil {
-        fmt.Printf(err)
+        fmt.Printf("Error scanning: %v\n", err)
         return
     }
 }
